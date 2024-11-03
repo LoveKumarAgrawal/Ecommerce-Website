@@ -5,7 +5,7 @@ import ProductDetail from './components/ProductDetail';
 import CheckoutPage from './components/CheckoutPage';
 import PaymentSuccess from './components/ProductSuccess';
 import PaymentFailure from './components/PaymentFailure';
-import HomePage from './components/homepage';
+import HomePage from './components/HomePage';
 
 const App = () => {
     return (
