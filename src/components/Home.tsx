@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const HomePage = () => {
+const Home = () => {
     return (
         <div className="min-h-screen bg-gray-100 flex flex-col">
             <header className="bg-white shadow-md p-4">
@@ -24,4 +24,4 @@ const HomePage = () => {
     );
 }
 
-export default HomePage;
+export default Home;

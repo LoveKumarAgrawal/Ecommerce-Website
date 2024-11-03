@@ -5,13 +5,13 @@ import ProductDetail from './components/ProductDetail';
 import CheckoutPage from './components/CheckoutPage';
 import PaymentSuccess from './components/ProductSuccess';
 import PaymentFailure from './components/PaymentFailure';
-import HomePage from './components/homepage';
+import Home from './components/Home';
 
 const App = () => {
     return (
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<Home />} />
             <Route path="/products" element={<ProductListing />} />
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/checkout" element={<CheckoutPage />} />
