@@ -30,6 +30,8 @@ function ProductListing() {
         }
     };
 
+    if (products.length === 0) return <div className='text-3xl text-center'>Loading...</div>;
+
     return (
         <div className="p-5">
             {products.length > 0 && (

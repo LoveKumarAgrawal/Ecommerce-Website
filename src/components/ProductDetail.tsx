@@ -33,7 +33,7 @@ function ProductDetail() {
     }
   };
 
-  if (!product) return <div>Loading...</div>;
+  if (!product) return <div className='text-3xl text-center'>Loading...</div>;
 
   return (
     <div className="w-full h-screen flex flex-col items-center">
